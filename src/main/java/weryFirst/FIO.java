@@ -30,6 +30,8 @@ public class FIO {
     }
 
     public String getFIO() {
-        return null;
+        String result;
+        result = FirstName + LastName + MiddleName;
+        return result;
     }
 }
